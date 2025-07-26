@@ -203,4 +203,8 @@ npx serve -s build
 - **React** for the UI framework
 - The open-source community for the tools and libraries used
 
+<img width="1915" height="898" alt="image" src="https://github.com/user-attachments/assets/12da4d81-c027-4252-a241-2dfe8cc62ee1" />
+
+<img width="1874" height="881" alt="image" src="https://github.com/user-attachments/assets/a4797b96-e132-4a86-8dd8-0359bd4913d8" />
+<img width="1261" height="838" alt="image" src="https://github.com/user-attachments/assets/40127f15-e078-4933-b1c1-99bfccf54ff7" />
 
