@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "question": "What is the minimum wage in India?",
+    "answer": "The minimum wage in India varies by state and type of work. It is set by the respective state governments and is revised periodically."
+  },
+  {
+    "id": 2,
+    "question": "What are the rules for paid leave in India?",
+    "answer": "Employees are entitled to paid leave such as annual leave, sick leave, and casual leave as per the Shops and Establishments Act or Factories Act, depending on the sector."
+  },
+  {
+    "id": 3,
+    "question": "Can an employer terminate an employee without notice?",
+    "answer": "Generally, employers must provide notice or pay in lieu of notice before terminating an employee, except in cases of misconduct. The notice period depends on the employment contract and applicable labor laws."
+  },
+  {
+    "id": 4,
+    "question": "Can leave be carried forward to next year?",
+    "answer": "Yes, annual leave can typically be carried forward for up to 30 days to the next year. However, total accumulated leave cannot exceed 45 days. Sick leave usually cannot be carried forward. Casual leave expires at the end of the year."
+  }
+]
