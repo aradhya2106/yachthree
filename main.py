@@ -4,6 +4,13 @@ from pydantic import BaseModel
 from typing import List
 from vector_store import VectorStore
 import requests
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
+GROQ_MODEL = "llama3-8b-8192"
 
 app = FastAPI()
 
@@ -25,10 +32,6 @@ class FAQ(BaseModel):
 
 class ChatRequest(BaseModel):
     question: str
-
-GROQ_API_KEY = "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"
-GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
-GROQ_MODEL = "llama3-8b-8192"
 
 def generate_llama3_answer(question: str, faqs: list) -> str:
     context = "\n".join([f"Q: {faq['question']}\nA: {faq['answer']}" for faq in faqs])
